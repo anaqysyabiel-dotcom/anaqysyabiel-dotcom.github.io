@@ -102,6 +102,9 @@ p{
 	padding:20px;
 	font-family:'MyCustomFont',serif;
 }
+figcaption{
+	padding:22px;
+}
 fieldset{
 	font-family:'MyCustomFont',serif;
 }
