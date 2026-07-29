@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Football Webpage</title>
+		<link rel="stylesheet" href="./style.css">
+		<script src="main.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1>Football</h1>
+		</header>
+		<section>
+			<h2>Introduction to Football</h2>
+				<p>Football is one of the world's oldest and most popular sports. Although games involving kicking a ball existed for centuries, modern 
+				football was officially established in England in 1863 with the creation of standardized rules. Since then, the sport has grown into a global 
+				phenomenon, bringing together millions of players and fans through domestic leagues, international competitions, and the FIFA World Cup.
+
+				Long before modern football was created, ancient civilizations such as China, Greece, and Rome played games that involved kicking a ball. 
+				However, each culture had its own rules and style of play. The establishment of the Football Association in England helped create a single set
+				of rules that clubs could follow, allowing the sport to grow rapidly. Today, football is played in over 200 countries, making it the most 
+				popular sport in the world. From local community matches to world-famous tournaments, football continues to inspire people of all ages and 
+				cultures.</p>
+		</section>
+		<nav> <!--menu system-->
+			<ul>
+				<li><button id="page1btn">Rules Of The Game</button></li>
+				<li><button id="page2btn">Interesting Facts</button></li>
+				<li><button id="page3btn">Mini Game & Quiz</button></li>
+			</ul>
+		</nav>
+		<main id="pagecontainer">
+			<section class="page" id="page1">
+				<h2>How to Play?</h2>
+				<div id="content">
+					<p>Football is played between two teams of 11 players. The objective is to score more goals than the opposing team by getting the ball into 
+					their net. Players mainly use their feet to pass, dribble, and shoot, while only the goalkeeper may use their hands inside the penalty area. 
+					Teamwork, skill, and strategy are essential to winning the game.
+
+					A standard football match lasts 90 minutes, divided into two 45-minute halves with a 15-minute halftime break. Each team consists of one
+					goalkeeper and ten outfield players. Outfield players are usually divided into defenders, midfielders, and forwards, each playing an important 
+					role. Defenders stop the opposing team from scoring, midfielders control possession and create chances, while forwards aim to score goals. 
+					Players must also follow the rules of the game, such as avoiding fouls and offside offences, to ensure fair play.</p>
+				</div>
+			</section>
+			<section class="page" id="page2">
+				<h2>Football Facts</h2>
+					<p>Football is the world's most popular sport, with billions of fans across the globe. The FIFA World Cup is the most-watched sporting event,
+					attracting audiences from nearly every country. A standard football match lasts 90 minutes, and players can run over 10 kilometres during a 
+					game. Football continues to unite people of different cultures through a shared passion for the sport.
+
+					The FIFA World Cup is held every four years and features the best national teams competing for the title of world champion. Professional 
+					footballers often run between 10 and 13 kilometres during a match, demonstrating the sport's high physical demands. Football is often called 
+					"the beautiful game" because of its exciting moments, creativity, and teamwork. Whether played on a professional pitch or in a neighbourhood 
+					park, football brings people together regardless of age, language, or background.</p>
+			</section>
+			<section class="page" id="page3">
+				<h2>Quiz</h2>
+					<fieldset>
+					<legend>1. How many players are on the field for each team in a standard football match?</legend>
+						<input type="radio" name="q1" value="9"> 9
+						<input type="radio" name="q1" value="10"> 10
+						<input type="radio" name="q1" value="11"> 11
+						<input type="radio" name="q1" value="12"> 12
+					</fieldset>
+					<fieldset>
+					<legend>2. How long is a standard football match (excluding extra time)?</legend>
+						<input type="radio" name="q2" value="60 minutes"> 60 minutes
+						<input type="radio" name="q2" value="75 minutes"> 75 minutes
+						<input type="radio" name="q2" value="90 minutes"> 90 minutes
+						<input type="radio" name="q2" value="120 minutes"> 120 minutes
+					</fieldset>
+					<fieldset>
+					<legend>3. Which player is allowed to use their hands during normal play?</legend>
+						<input type="radio" name="q3" value="Defender"> Defender
+						<input type="radio" name="q3" value="Midfielder"> Midfielder
+						<input type="radio" name="q3" value="Striker"> Striker
+						<input type="radio" name="q3" value="Goalkeeper"> Goalkeeper
+					</fieldset>
+					<fieldset>
+					<legend>4. What is the main objective of a football match?</legend>
+						<input type="radio" name="q4" value="Keep possesion the longest"> Keep possesion the longest
+						<input type="radio" name="q4" value="Make the most passes"> Make the most passes
+						<input type="radio" name="q4" value="Score more goals than the opponent"> Score more goals than the opponent
+						<input type="radio" name="q4" value="Win the most corners"> Win the most corners
+					</fieldset>
+					<fieldset>
+					<legend>5. Which of these competitions is the biggest international football tournament?</legend>
+						<input type="radio" name="q5" value="UEFA Champions League"> UEFA Champions League
+						<input type="radio" name="q5" value="FIFA World Cup"> FIFA World Cup
+						<input type="radio" name="q5" value="English Premier League"> English Premier League
+						<input type="radio" name="q5" value="Copa América"> Copa América
+					</fieldset>
+					<button id="btnSubmit">Submit Quiz</button>
+					<h3 id="scorebox">Not submitted</h3>
+				<h2>Football Mini Game</h2>
+					<h3>Click the ball to shoot towards the goal</h3>
+					<h3 id="scoreCounter">Score:</h3>
+					<p id="minigame"> <img id="SoccerBallId" src="./images/soccerball.png" alt="soccer ball image" width="100"></p>
+			</section>
+		</main>
+	</body>
+</html>

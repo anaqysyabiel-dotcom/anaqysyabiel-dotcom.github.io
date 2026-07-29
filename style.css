@@ -1,0 +1,132 @@
+.page{width:80vw;height:1000px;}
+nav {background: white;}
+nav ul{list-style-type:none;}
+nav ul li{
+	margin:7.5em;
+	display:inline;
+	}
+#page1btn{
+	background-color: gray;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+#page2btn{
+	background-color: gray;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+#page3btn{
+	background-color: gray;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+
+#page1{
+	background:gray;
+	color: white; 
+	padding: 15px;
+	margin:0 auto;
+	width:96vw;
+	height:1000px;
+	}
+#page2{
+	background:gray;
+	color: white; 
+	padding: 15px;
+	margin:0 auto;
+	width:96vw;
+    height:1000px;           
+	}
+#page3{
+	background:gray;
+	color: white; 
+	padding: 15px;
+	margin:0 auto;
+	width:96vw;
+	height:1700px;
+	}
+#page1btn:hover{
+	background-color: black;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#page2btn:hover{
+	background-color: black;
+	transform: scale(1.05);
+	box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#page3btn:hover{
+	background-color: black;
+	transform: scale(1.05);
+	box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./fonts/fontA.otf") format("opentype");
+}
+
+h1{
+	text-align: center;
+	font-size:50px;
+	font-family:'MyCustomFont',serif;
+}
+h2{
+	text-align: center;
+	width: 20%;
+	padding:20px;
+	font-family:'MyCustomFont',serif;
+}
+h3{
+	font-family:'MyCustomFont',serif;
+}
+p{
+	padding:20px;
+	font-family:'MyCustomFont',serif;
+}
+fieldset{
+	font-family:'MyCustomFont',serif;
+}
+
+header{
+	background-color:white;
+	padding:20px;
+}
+
+#SoccerBallId {
+	position: relative;
+	width:10vw;
+	transition: all 0.5s;
+	}
+
+#minigame{
+	height:650px;
+	width:75%;
+	background-image: url("./images/goalpost.png");
+	background-size: cover;
+	background-position: center;
+}
+@media (max-width:800px){
+	nav ul li{
+	margin:5em;
+	display:block;
+	}
+}
